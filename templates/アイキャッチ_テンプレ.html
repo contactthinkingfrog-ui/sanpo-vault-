@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>散歩する主夫｜アイキャッチ／OGP テンプレ（書き換えてスクショ）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --serif:"Noto Serif JP","Hiragino Mincho ProN",serif;
+    --sans:-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+    --cream:#F4EFE6; --surface:#FCFAF5; --ink:#2B2A28; --sub:#6B6760;
+    --line:#E4DDD0; --navy:#1F3A4D; --terra:#C2674A; --terra-soft:#E7C4B5;
+  }
+  body{background:#E7E0D3;font-family:var(--sans);margin:0;padding:30px;color:var(--ink);}
+  .note{max-width:1200px;margin:0 auto 18px;font-size:14px;color:#555;line-height:1.7;}
+  .note b{color:#1F3A4D;}
+  .stage{max-width:1200px;margin:0 auto 34px;}
+  .cap{font-size:13px;color:#666;margin:0 0 8px;}
+
+  /* === サムネ 16:9（1200×675）=== */
+  .thumb{width:1200px;height:675px;box-sizing:border-box;border-radius:18px;overflow:hidden;
+    display:flex;flex-direction:column;justify-content:center;padding:90px;transform-origin:top left;}
+  .thumb.cream{background:var(--surface);border:1px solid var(--line);}
+  .thumb.navy{background:var(--navy);}
+  .eyebrow{font-family:var(--sans);font-weight:700;letter-spacing:.18em;font-size:30px;margin-bottom:26px;}
+  .thumb.cream .eyebrow{color:var(--terra);}
+  .thumb.navy  .eyebrow{color:var(--terra-soft);}
+  .title{font-family:var(--serif);font-weight:600;font-size:74px;line-height:1.42;}
+  .thumb.cream .title{color:var(--navy);}
+  .thumb.navy  .title{color:var(--cream);}
+  .foot{margin-top:42px;}
+
+  /* === OGP（1200×630）=== */
+  .ogp{width:1200px;height:630px;box-sizing:border-box;border-radius:18px;overflow:hidden;background:var(--navy);
+    display:flex;flex-direction:column;justify-content:center;padding:90px;transform-origin:top left;}
+  .ogp .brand{font-family:var(--sans);font-weight:700;letter-spacing:.14em;font-size:28px;color:var(--terra-soft);margin-bottom:28px;}
+  .ogp .title{font-family:var(--serif);font-weight:600;font-size:70px;line-height:1.42;color:var(--cream);}
+  .ogp .meta{display:flex;align-items:center;gap:18px;margin-top:44px;}
+  .ogp .dom{font-family:var(--sans);font-size:24px;color:#AEBAC2;}
+
+  /* 画面に収めるための縮小プレビュー（書き出し時は実寸でスクショ） */
+  @media (max-width:1300px){ .thumb,.ogp{transform:scale(.62);} .stage{height:auto;} }
+</style>
+</head>
+<body>
+
+<div class="note">
+  <b>使い方</b>：下の <b>カテゴリ（eyebrow）</b> と <b>タイトル</b> を書き換える → 各カードを実寸（サムネ1200×675／OGP1200×630）でスクリーンショット → WebPで書き出し。<br>
+  色は地＋文字＋eyebrowの3色まで。タイトルは2〜3行・最大26字程度。重要記事はネイビー版を使う。
+</div>
+
+<div class="stage">
+  <p class="cap">サムネ（標準・クリーム地）1200×675</p>
+  <div class="thumb cream">
+    <div class="eyebrow">SEIKATSU ／ 生き方</div>
+    <div class="title">「主夫です」が、<br>言えなかった僕の話</div>
+    <svg class="foot" width="56" height="56" viewBox="0 0 64 64"><g fill="#1F3A4D"><path d="M32 20.5c6.2 0 9.8 4.3 9.8 10.2 0 4.1-1.7 6.6-1.7 10.6 0 3.9-3.1 6.9-8.1 6.9s-8.1-3-8.1-6.9c0-4-1.7-6.5-1.7-10.6 0-5.9 3.6-10.2 9.8-10.2z"/><circle cx="22.6" cy="20.4" r="2.5"/><circle cx="28.4" cy="16.2" r="2.7"/><circle cx="35.6" cy="16.2" r="2.7"/><circle cx="41.4" cy="20.4" r="2.5"/></g></svg>
+  </div>
+</div>
+
+<div class="stage">
+  <p class="cap">サムネ（重要記事・ネイビー地）1200×675</p>
+  <div class="thumb navy">
+    <div class="eyebrow">FEATURE ／ 特集</div>
+    <div class="title">主夫になるって、<br>実際どうなの。</div>
+    <svg class="foot" width="56" height="56" viewBox="0 0 64 64"><g fill="#E7C4B5"><path d="M32 20.5c6.2 0 9.8 4.3 9.8 10.2 0 4.1-1.7 6.6-1.7 10.6 0 3.9-3.1 6.9-8.1 6.9s-8.1-3-8.1-6.9c0-4-1.7-6.5-1.7-10.6 0-5.9 3.6-10.2 9.8-10.2z"/><circle cx="22.6" cy="20.4" r="2.5"/><circle cx="28.4" cy="16.2" r="2.7"/><circle cx="35.6" cy="16.2" r="2.7"/><circle cx="41.4" cy="20.4" r="2.5"/></g></svg>
+  </div>
+</div>
+
+<div class="stage">
+  <p class="cap">OGP（SNSシェア・ネイビー地）1200×630</p>
+  <div class="ogp">
+    <div class="brand">散歩する主夫</div>
+    <div class="title">育休給付金は、<br>結局いくらもらえる？</div>
+    <div class="meta">
+      <svg width="44" height="44" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#F4EFE6"/><g fill="#1F3A4D"><path d="M32 20.5c6.2 0 9.8 4.3 9.8 10.2 0 4.1-1.7 6.6-1.7 10.6 0 3.9-3.1 6.9-8.1 6.9s-8.1-3-8.1-6.9c0-4-1.7-6.5-1.7-10.6 0-5.9 3.6-10.2 9.8-10.2z"/><circle cx="22.6" cy="20.4" r="2.5"/><circle cx="28.4" cy="16.2" r="2.7"/><circle cx="35.6" cy="16.2" r="2.7"/><circle cx="41.4" cy="20.4" r="2.5"/></g></svg>
+      <span class="dom">shufu-sanpo.com</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Obsidian ローカル状態
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/plugins/*/data.json
+
+# 一時ファイル
+*.swp
+*.swo
+*~
+*.tmp
+.trash/
+
+# OS生成物
+Thumbs.db
