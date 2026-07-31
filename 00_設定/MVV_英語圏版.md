@@ -3,7 +3,7 @@ title: MVV｜The Strolling Husband（英語圏版・最上位指針）
 type: strategy
 created: 2026-07-03
 last_updated: 2026-07-03
-status: ✅確定（2026-07-03 ユーザー承認。修正反映＝Value①を体験縛りから緩和・タグライン確定）
+status: ⚠️**v1＝Mission/Valueは失効（2026-07-31）**。理念の正＝[[00_設定/上流設計v2_理念と戦略_2026-08]] §2（本人承認済み）。**Mission＝「自分が日本を生き延びるために書いた攻略ノートを、そのまま外に出す」／Value②「詰まった話を書く」・⑤「作り方を隠さない（AI翻訳の明示）」を新設**。本ファイルで有効なのは**タグライン（The real Japan, one stroll at a time.）と§Visionのみ**＝以下は経緯記録として保持
 purpose: The Strolling Husband のすべての記事・デザイン・収益・運用判断をふるいにかける最上位の羅針盤。日本語版 [[00_設定/MVV]] の骨格（経験で語る・ハイセンス・煽らない）を継承し、ミッションを英語圏読者向けに再定義。
 related:
   - "[[00_設定/MVV]]"
