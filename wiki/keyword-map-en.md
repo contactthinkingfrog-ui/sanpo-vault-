@@ -3,7 +3,7 @@ title: keyword-map EN｜KW実数化（Track1）
 type: keyword-map
 created: 2026-07-31
 last_updated: 2026-07-31
-status: ✅Track1完了（7/7クラスタ判定済み・ロングテール実査済み・教訓2チェック済み・初期記事25本の改廃提案つき）。数値の実数化は無料手段の限界内＝SERP構成を代理指標とする（§0の但し書きを必ず読む）。
+status: ✅Track1完了 v2（2026-07-31 Round2＝Googleオートコンプリート実査を追加し、**Round1の「空きレーン」判定を一部撤回・修正**。§9〜§12が最新の正）。数値の実数化は無料手段の限界内（§0の但し書きを必ず読む）。
 purpose: 勝てるロングテールのレーンを確認し、クラスター設計・初期記事リスト改廃の土台にする（リサーチ計画_2026-08 Track1）。
 related:
   - "[[00_設定/リサーチ計画_2026-08]]"
@@ -12,6 +12,8 @@ related:
 ---
 
 # keyword-map EN（Track1：KW実数化）
+
+> ⚠️**読む順の注意**：§1〜§8はRound1（SERP実査）。**§9〜§12がRound2（オートコンプリート実査）で、Round1の一部を撤回・修正している**。矛盾したら§9〜§12が正。
 
 ## §0 方法と、この文書の限界（先に読む）
 
@@ -237,3 +239,121 @@ related:
 - **Track3（構成）へ**：Ch.3を縮小するなら**カテゴリ7本（6章＋Strolls）の構成自体を見直す余地**がある（Ch.3を独立章にせず他章に吸収する案）。本人の構成イメージ（メイン=日本文化紹介／サブ=散歩）とも突合すること。
 - **事業計画v2へ**：①訪日全体は減っているが**英語圏市場は記録更新中**（前提の追記候補）②**travel系はAI OverviewsでCTR-58〜61%＝広告一本足のリスクが計画の想定より高い可能性**（RPM前提の書き換えはしない。四半期レビューで実測と照合）。
 - **未了として明記**：検索ボリュームの実数（無料手段の限界）／Redditの直接実査（クローラ制限・保管庫の一次データで代替済み）。
+
+---
+
+# 【Round2】オートコンプリート実査（2026-07-31・Round1の修正を含む）
+
+## §9 方法（Round1で未実行だった手法を実行）
+
+- リサーチ計画Track1が指定していた「**Googleオートコンプリート/関連検索**」を、Round1では実行できていなかった（SERP実査のみ）。Round2でこれを実行。
+- **手段＝Googleのサジェスト公開エンドポイント**（`suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=...`）を直接叩く。無料・米国ロケール固定。
+  - スクリプト＝`scratchpad/ac.sh`（セッション限り。再現手順は本節に記載のURL形式のみで足りる）。
+- **これで何が分かるか**：サジェストは**実際に人が打ち込んでいる語順**のランキング。ボリュームの絶対値は出ないが、**「その言い回しで検索する人が存在するか／どの言い回しが主流か」は実データで分かる**。
+- **これで何が分からないか**：絶対的な検索回数。またGoogleは**人の集団に対する否定的サジェストを抑制する**ため、「なぜ日本人は冷たいのか」型の候補が出ないことは**需要ゼロの証明にならない**（§10-3で扱う）。
+
+## §10 ★Round1の自己修正（重要）
+
+### 10-1. 何を間違えたか
+
+Round1では「そのKWで良い記事が存在しない」ことを確認して**「空きレーン」と判定した**。しかしこれは**コンテンツの不在**を測っただけで、**需要の存在**を測っていなかった。オートコンプリート実査の結果、Round1が★（空きレーン）とした一部は、**空いているのではなく、そもそも誰もその言い方で検索していない**ことが判明した。
+
+> これは**教訓2（「競合がいない」は「儲からないから居ない」かもしれない）のKWレベルでの再演**である。危うく同じ型の失敗をするところだった。以下、判定を修正する。
+
+### 10-2. 判定を下げるもの（SEO記事として数えない）
+
+| Round1の判定 | オートコンプリート実査の結果 | 修正後 |
+|---|---|---|
+| N1「"teach me english"の本当の意味」＝★最優先の空きレーン | `teach me english japanese` の候補は**すべて「英語を教える仕事」「日本語で"英語教えて"はどう言うか」**。**"あれはどういう意味か"という問いは候補に出ない** | **SEO記事ではない。Reddit/ブランド記事へ再分類**（需要は186件の一次データで実証済み＝検索でなくコミュニティに存在する） |
+| #11「常連になる戦略」＝★空きレーン | `how to become a regular` の候補は "at a bar / at a restaurant" など**一般論のみ。日本文脈の候補が出ない** | **同上＝コミュニティ/ブランド記事へ再分類** |
+| お通し（otoshi）を切り口にする | `izakaya otoshi` の候補は**サンパウロの同名レストラン一色**。KWとして使用不能 | **KWにしない。記事内の一節として扱う** |
+| #23「First Week in Japan」 | `japan first week` の候補は**すべて「5月の第1週」等の旅行時期クエリ** | **タイトルのKW不一致。"first week"を狙わない言い回しへ変更が必要** |
+| 「moving to japan nobody tells you」「japan culture shock foreigners」 | **候補ゼロ**（そのフレーズで検索する人がいない） | 記事タイトルの言い回しとして使わない |
+
+### 10-3. 判定を上げる／新たに確認できたもの（SEO記事として実在する需要）
+
+| 実データ（サジェスト候補） | 読み |
+|---|---|
+| **`how to order food in japan without speaking japanese`**（第1候補） | **Ch.1の中核クエリが実在**。「日本語を話さずに注文する」はそのまま検索されている |
+| **`how to live in japan without speaking japanese` / `how to survive in japan without knowing japanese` / `how to visit japan without speaking japanese`** | **N3（接触量ガイド＝低接触のピラー）に検索需要が実在**。Round1では概念の空白しか確認できていなかったが、**ピラーKWとして成立する**＝格上げ |
+| **`is it rude in japan to ...`**（not finish food／eat while walking／drink while walking／tip／leave food／slurp noodles／burp／**rub chopsticks together**） | **Ch.3の本当のクエリ形は「箸のマナー」ではなく「〜するのは失礼？」という恐怖ベースの疑問文**。※箸は独立記事ではなく**この疑問文の一項目として生き残る**（Round1の#12削除判断を微修正） |
+| **`what to say when entering a japanese restaurant` ほか同義10件** | 同じ意図の言い換えが候補を埋め尽くす＝**需要密度が高い**。要件定義FR-2（ローマ字＋日本語＋英訳の台本）が**そのまま答えになるKW群** |
+| **`why do japanese people always say hai` / `what does it mean when japanese people say hai` / `what do japanese say instead of no` / `is it rude to say no in japan`** | **N2（"No"の言い方）の需要が実在**＝Round1の推測が実データで裏づけ |
+| **`what does it mean if a japanese person calls you by your first name` / `when can you call a japanese person by their first name`** | ★**Ch.4の実用的な入口が判明**。抽象語（uchi soto）でなく「**いつ下の名前で呼んでいいのか**」という読者が直面する具体的判断。**#7のKW設計をこちらへ寄せる** |
+| **`do japanese people want to learn english`（第1候補）／`do japanese people like foreigners` / `do japanese people want to date foreigners`** | **「日本人側はどう思っているのか」を知りたい需要が実在**＝TSHの逆視点（日本人本人が答える）の土台。N1はここに接続すれば検索でも拾える |
+| `is living in japan lonely reddit` / `living lonely and loveless in japan` | Ch.5の孤独レーンは実在 |
+| `japan convenience store what to buy` | #3コンビニ記事は「使い方」でなく**「何を買うか」**が実際のクエリ |
+
+### 10-4. ★最大の発見：`reddit` サフィックス
+
+オートコンプリート実査で、**4つの別々のクラスタで "reddit" 付きの候補が独立に出現**した：
+- `how to make friends in japan as a foreigner reddit`／`how to make japanese friends online reddit`
+- `eating alone in japan reddit`
+- `is living in japan lonely reddit`
+
+背景の裏取り（外部ソース）＝ユーザーは**磨かれたSEO記事とAI生成記事を信用せず、「実在の人間の一次体験」を求めて検索語に reddit を足している**（2026年にAI生成コンテンツが氾濫したことで加速）。
+
+> **含意（TSHの根幹に関わる）**：TSHが売っているもの＝「実在の日本人の一次体験」は、**まさに今ユーザーが検索エンジンに不足を感じて探し回っているもの**。これはRound1の教訓2チェック（＝空白の理由は"動機が無いから"）と合わせて、**この事業の中心仮説が実データ2系統から支持されたことを意味する**。
+> ただし裏返しの警告：**この需要は今Redditに向かっている**。TSHがサイトだけを作ってReddit運用を後回しにすると、需要のある場所に不在ということになる。→ ロードマップM6（Reddit開始＝9月末）は**遅い可能性がある**（→§12申し送り）。
+
+## §11 記事の二分類（Round2の実務的な結論）
+
+**すべての記事を「どのチャネルから人が来るのか」でラベル付けする**。これを混同すると、検索需要のない記事をSEO記事として数えてPV計画が狂う。
+
+### A. SEO記事（検索から来る／KWの実在をサジェストで確認済み）
+| 記事 | 狙うクエリ形 |
+|---|---|
+| #2 Day Oneの店 | how to order food in japan without speaking japanese |
+| **N3 接触量ガイド（ピラー）** | how to live / survive / visit japan without speaking japanese |
+| #16 居酒屋 | what to say when entering a japanese restaurant（＋退店時） |
+| #17 一人飯 | eating alone in japan／is eating alone normal in japan |
+| #3 コンビニ | japan convenience store what to buy |
+| **N2 Noの言い方** | what do japanese say instead of no／why do japanese people always say hai |
+| **#7 うちそと（KW再設計）** | what does it mean if a japanese person calls you by your first name |
+| #6 友達の作り方 | how to make friends in japan as a foreigner（is it hard／is it easy 系も） |
+| **N4（新規提案）「Is It Rude to…? 30の答え」** | is it rude in japan to（tip／walk and eat／leave food／slurp／rub chopsticks…） |
+
+### B. コミュニティ／ブランド記事（Reddit・人格・AI引用から来る。検索需要は薄いか無い）
+- **N1「"Teach Me English"の本当の意味」**（186件で需要実証・検索では拾えない）
+- **#11 常連戦略**
+- **#24 なぜ主夫になったか**
+- **Strolls全般**（Round1の結論を維持）
+- ※これらは**PV計画に算入しない**。役割＝信用・人格・Reddit素材・AIに引用される一次証言。
+
+## §12 GEO（AI検索に引用される形）＝Track1指定の「会話型AIクエリ」への回答
+
+Round1で未実行だった「会話型AIクエリを並行で拾う」への回答。**オートコンプリート実査の結果、TSHの主要クエリはすでに会話型（疑問文）だった**：
+`is it rude in japan to …` ／ `what does it mean when a japanese person …` ／ `do japanese people …` ／ `what to say when …` ／ `how to … without speaking japanese`
+
+外部調査で確認した引用されやすい形（⚠️**出典はSEO事業者のブログ＝マーケ目的の記事のため、数値は割り引いて読むこと**）：
+- **H2を実際の疑問文にし、直後の第1段落で直接答える**（answer-shaped page）。
+- **独自データの表を持つページは引用率が高い**とされる（4.1倍という主張あり・要割引）。→ **TSHの「接触量ティアリスト」はまさに独自データ表**＝設計と一致。
+- リスト形式がAI Overviewsで最も引用されやすい形式とされる。
+- **自社サイトより第三者（媒体・レビュー・フォーラム）経由の言及の方が引用に効く**（6.5倍という主張あり・要割引）。→ **Reddit運用はトラフィック施策であると同時にAI引用の施策**。
+- 更新月の明示と定期的な実質更新（→要件定義NFRの`dateModified`可視化と一致）。
+
+**→ 要件定義v1（FR-1 結論先出し／FR-2 台本3点セット／NFR GEO節）は、この実査結果と矛盾しない。追加すべきは「H2を疑問文にする」ルールの明文化のみ**（→Track4）。
+
+## §13 §6（改廃提案）への修正差分
+
+Round1の§6を、Round2の結果で以下のとおり修正する（**M2擦り合わせでは本節を見る**）。
+
+1. **N1・#11は「削除」ではなく「B分類（コミュニティ記事）」へ**。書く価値はある（Redditで実証済み・AI引用素材）が、**SEOの本数に数えない**。
+2. **N3（接触量ガイド）を最重要ピラーに格上げ**。`how to live in japan without speaking japanese` という実在ピラーKWを持つため、**サイトの看板記事＝#1ハブに次ぐ位置**に置く。
+3. **#12（箸）の完全削除を撤回 → N4「Is It Rude to…?」に吸収**。`is it rude in japan to rub chopsticks together` 等、実在するのは疑問文の形。**#15（電車）も同様にN4へ吸収**（Forbes等と正面から戦わず、疑問文集の一項目にする）。
+4. **#23 First Week in Japan はタイトルのKWを変更**（`japan first week` は旅行時期クエリに占有されている）。
+5. **#7（うちそと）はKWを「いつ下の名前で呼んでいいか」側に寄せる**（抽象語でなく読者の実務的判断）。
+6. **本数の再計算**：25本 − #12/#15（N4へ吸収）＋ N1・N2・N3・N4 ＝ **27本**。うち**SEO記事9本前後／残りはブランド・コミュニティ記事**という内訳を明示して運用する。
+
+## §14 Round2の出典（2026-07-31実査）
+
+- **一次データ（自分で取得）**：Google Suggest API（`suggestqueries.google.com/complete/search`・client=firefox・hl=en・gl=us）。照会シードは§9〜§10に記載のもの。
+- **redditサフィックスの背景**：[Arris Web（Google検索の劣化と利用者行動）](https://www.arrisweb.com/is-google-search-getting-worse/)・[Creative Shizzle（検索がRedditに寄る）](https://creativeshizzle.com/the-future-of-google-search-looks-less-like-seo-and-more-like-reddit/)・[Datastream（Redditの検索的台頭）](https://datastream.substack.com/p/reddits-rise-to-search-dominance)
+- **AI引用の要件（⚠️SEO事業者ブログ＝要割引）**：[The HOTH](https://www.thehoth.com/blog/how-to-get-cited-in-ai-overviews/)・[Winston Digital](https://www.winstondigitalmarketing.com/playbooks/how-to-get-cited-by-chatgpt-in-2026/)・[neuroflash](https://neuroflash.com/blog/ai-visibility-2026-the-ultimate-guide-to-getting-cited-in-chatgpt-and-google-ai-overviews/)・[humanswith.ai](https://humanswith.ai/blog/how-to-get-cited-by-chatgpt-perplexity-ai-overviews/)
+
+## §15 Round2からの申し送り
+
+- **ロードマップへ（要判断）**：`reddit`サフィックス需要の発見により、**Reddit運用開始（M6＝9月末）が遅い可能性**。サイト公開前でも「Redditで答える→後で記事にする」順は取れる（教訓3＝実測が出た場所に張る）。**M2擦り合わせで本人に諮る事項として起票**。
+- **Track3へ**：記事がA（SEO）/B（コミュニティ）の二分類になったため、**サイト構成もこの2系統が見える形が望ましい**（例：攻略＝A系／人格・散歩＝B系）。本人の構成イメージ（メイン=日本文化紹介／サブ=散歩）と実は整合する。
+- **Track4へ**：GEO要件に「**H2は疑問文にする**」を追記（要件定義§3 GEO節の補強）。
+- **事業計画v2へ**：PV計画に算入してよいのは**A分類の記事のみ**。B分類（Strolls・人格記事）をPV前提に入れない。

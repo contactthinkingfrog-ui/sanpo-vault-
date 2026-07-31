@@ -924,3 +924,42 @@
 - Track2の起点条件が1つ増えた＝**「広告が自然に載る器」より「NL登録と将来の商品につながる器」で評価する**（Tofugu構造を参考先の上位へ）。
 - Track3の検討事項が1つ増えた＝**Ch.3縮小によりカテゴリ7本構成の見直し余地**（Ch.3を独立章にせず吸収する案）。
 - 事業計画v2への申し送り2件（英語圏市場は記録更新中／travel系のAIO逆風＝広告一本足のリスク）は**四半期レビューで実測と照合**（今は前提を書き換えない）。
+
+---
+
+## 2026-07-31 Track1 Round2＝オートコンプリート実査で Round1 を自己修正（Opus）
+
+> 本人指示＝「作業の最後に必ず見直し＋所感つきレポート」「同フェーズを掘り下げるべきなら切り口を変えて再実行してよい」。**判断＝Track1を再実行**（リサーチ計画が指定していた手法のうち「Googleオートコンプリート/関連検索」「会話型AIクエリの収集」がRound1で未実行だったため）。
+
+### 手法（Round1の穴を塞いだ）
+- **Google Suggest公開エンドポイント**（`suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=`）を直接照会＝無料でオートコンプリートの実データを取得。ボリューム絶対値は出ないが**「その言い回しで検索する人が実在するか」は実データで判定できる**。
+- ⚠️注意点として記録：Googleは人の集団に対する否定的サジェストを抑制するため、「なぜ日本人は冷たいか」型の候補が出ないことは需要ゼロの証明にならない。
+
+### ★自己修正（重要・Round1の判定を撤回した部分）
+- **誤りの型**：Round1は「良い記事が存在しない」＝★空きレーンと判定したが、これは**コンテンツの不在**を測っただけで**需要の存在**を測っていなかった。＝**教訓2（競合がいないのは儲からないからかも）のKWレベルでの再演**。危うく同じ失敗をするところだった。
+- **下方修正**：①N1「teach me englishの本当の意味」＝サジェスト候補は「英語を教える仕事」等ばかりで**"あれはどういう意味か"の問いは存在しない** ②#11「常連戦略」＝`how to become a regular` は一般論（bar/restaurant）のみで**日本文脈が無い** ③お通し＝`izakaya otoshi` はサンパウロの同名店一色で**KWとして使用不能** ④#23 `japan first week` は**「5月の第1週」等の旅行時期クエリに占有** ⑤「moving to japan nobody tells you」「japan culture shock foreigners」＝**候補ゼロ**。
+  - → ただし**記事を捨てるのではなく再分類**（下記A/B分類）。N1は186件の一次データで需要が実証済み＝**検索でなくコミュニティに需要がある**記事。
+- **上方修正**：①**N3「接触量ガイド」に実在ピラーKWが見つかった**＝`how to live / survive / visit japan without speaking japanese`＝**最重要ピラーに格上げ** ②`how to order food in japan without speaking japanese`（第1候補）＝Ch.1中核クエリの実在確認 ③**Ch.3の本当のクエリ形は「箸のマナー」でなく `is it rude in japan to …`**（tip/eat while walking/leave food/slurp/**rub chopsticks together**）＝**#12箸・#15電車の"完全削除"を撤回し、N4「Is It Rude to…?」に吸収** ④`what to say when entering a japanese restaurant` 系10件＝**需要密度が高く、要件定義FR-2（台本3点セット）がそのまま答えになる** ⑤N2「Noの言い方」＝`what do japanese say instead of no`・`why do japanese people always say hai` で需要実在を確認 ⑥**#7うちそとのKWを「いつ下の名前で呼んでいいか」へ寄せる**（`what does it mean if a japanese person calls you by your first name`）＝抽象語でなく読者の実務判断 ⑦`do japanese people want to learn english`（第1候補）＝**「日本人側はどう思っているか」の需要が実在**＝逆視点の土台。
+
+### ★最大の発見＝`reddit` サフィックス
+- **4つの別々のクラスタで独立に `... reddit` の候補が出現**（make friends in japan as a foreigner reddit／make japanese friends online reddit／eating alone in japan reddit／is living in japan lonely reddit）。
+- 背景の裏取り＝ユーザーは**AI生成コンテンツと磨かれたSEO記事を信用せず、実在の人間の一次体験を求めて検索語にredditを足している**（2026年のAI生成氾濫で加速）。
+- **含意＝TSHが売っているもの（実在の日本人の一次体験）は、いまユーザーが検索エンジンに不足を感じて探し回っているもの。中心仮説が実データ2系統（教訓2チェック＋サジェスト）から支持された。**
+- **裏返しの警告＝その需要は"今"Redditにある。ロードマップM6（Reddit開始＝9月末）は遅い可能性がある。サイト公開前でも「Redditで答える→後で記事化」の順は取れる（教訓3＝実測が出た場所に張る）。→ M2擦り合わせで本人に諮る事項として起票。**
+
+### 記事のA/B二分類（Round2の実務的結論）
+- **A＝SEO記事（検索から来る・KW実在をサジェストで確認済み）**：#2／**N3（ピラー）**／#16／#17／#3／N2／#7（KW再設計）／#6／**N4「Is It Rude to…?」**＝**9本前後**。
+- **B＝コミュニティ/ブランド記事（Reddit・人格・AI引用から来る。検索需要は薄いか無い）**：N1／#11／#24／Strolls全般。
+- **→ PV計画に算入してよいのはA分類だけ**（事業計画v2への申し送り）。本数＝**27本**（25 −#12/#15吸収 ＋N1〜N4）。
+
+### GEO（会話型AIクエリ）＝Track1指定項目への回答
+- サジェスト実査の結果、**TSHの主要クエリはすでに会話型（疑問文）だった**（is it rude in japan to…／what does it mean when a japanese person…／do japanese people…／what to say when…／how to … without speaking japanese）。
+- 外部調査（⚠️出典はSEO事業者ブログ＝要割引）：**H2を疑問文にし直後の第1段落で直接答える**／独自データ表は引用率が高い（4.1倍の主張）→**接触量ティアリストがまさに独自データ表**／リスト形式が最頻引用／**第三者（フォーラム等）経由の言及の方が引用に効く（6.5倍の主張）→Reddit運用はAI引用施策でもある**／更新月の明示。
+- → **要件定義v1と矛盾なし。追加すべきは「H2は疑問文にする」の明文化のみ（Track4）**。
+
+### 更新したファイル
+- `wiki/keyword-map-en.md`（**§9〜§15を追記＝Round2が最新の正**・冒頭に読む順の注意を明記）／`00_設定/リサーチ計画_2026-08.md`（Round2要点を追記）／本ログ。
+
+### 次アクション
+- **Track1は完了（Round2で手法の穴も塞いだ）。次＝Track2（デザインリサーチ）／Track3（情報メディア構成）**。
+- M2擦り合わせへの起票2件：**①Reddit開始の前倒し可否 ②記事A/B分類の本数配分の合意**。
