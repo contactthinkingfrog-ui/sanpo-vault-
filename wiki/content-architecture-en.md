@@ -3,7 +3,7 @@ title: コンテンツ設計（英語圏版）｜The Japan Walkthrough
 type: content-architecture
 created: 2026-07-03
 last_updated: 2026-07-03
-status: 確定（初期記事リスト25本つき。KW実数はA6以降にSearch Consoleの実データで補正）
+status: ⚠️**旧（2026-07-03）＝そのまま実装に使わない。** ①**POD前提が残っている**（サイト構造の`Shop`・記事#7#8の収益・第4陣の見出し）＝**2026-07-31に本人が除外決定済み** ②**サイト名「The Japan Walkthrough」・章名・攻略本メタファーは未決定**（STEP 2.5 のB5/B7で決める。本人評価＝章タイトル案は「微妙」） ③記事リストの改廃案＝[[wiki/keyword-map-en]] §6/§13。／旧status＝「確定（初期記事リスト25本つき。KW実数はA6以降にSearch Consoleの実データで補正）」
 purpose: サイトの章構造（攻略本）と初期記事リスト。Opusのカテゴリ実装・執筆順の根拠。
 related:
   - "[[00_設定/英語圏版_上流設計]]"
