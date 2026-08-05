@@ -31,7 +31,7 @@ related:
 |---|---|---|
 | Ch.5 Making Friends | **◎ 最強ギャップ・最優先** | 上位は全て「外国人が外国人に教える」。日本人本人の逆視点はゼロ |
 | Ch.4 Hidden OS | **◎ GO（本丸のひとつ）** | 全て外国人ライターか教科書的解説。当事者の一人称が不在 |
-| Ch.1 Day One／低接触メシ | **○ GO（角度必須）** | 中小ブログが現にランクイン。「接触量で格付け」は不在 |
+| Ch.1 Day One／日本語なしで食べる | **○ GO（角度必須）** | 中小ブログが現にランクイン。「どれだけ話さずに済むかで格付け」は不在 |
 | Ch.2 Eating | **○ 条件つきGO（角度を変える）** | 既存は全て"フレーズ集"。**流れ（体験の順序）で書けば空いている** |
 | Ch.3 Rules | **△ 縮小（4本→2本）** | 大手メディア＋商用が占有・純how-to＝AI Overviews直撃帯。深追いしない |
 | Strolls | **○ GO（ただし集客でなくE-E-A-T役）** | 英語圏の競合が実質ゼロ。ただし検索需要も極小 |
@@ -43,7 +43,7 @@ related:
 
 ### ① Ch.1 低接触メシ（`ticket machine restaurant japan`系）＝**勝てるレーン・角度勝負**
 - SERP＝GaijinPot・LIVE JAPAN・Tripadvisor・Wikipedia＋**中小個人ブログが現に複数ランクイン**（Japlanease・Our Trips Abroad・Devour.Asia・Japan Living Life）＝新規でも届く難度。
-- ギャップ確認＝既存は全て「券売機の使い方」の単発how-to。**「接触量で格付けする」「初日から使える店のティアリスト」「日本人当事者の内側視点」の角度は不在**。
+- ギャップ確認＝既存は全て「券売機の使い方」の単発how-to。**「どれだけ日本語を話さずに済むかで格付けする」「初日から使える店のティアリスト」「日本人当事者の内側視点」の角度は不在**。
 - ⚠️純how-toはAI Overviews直撃帯＝**手順だけの記事にしない**（体験・格付け・台本で差別化＝既定方針と一致）。判定＝**GO（差別化角度つきで）**。
 
 ### ② Ch.4 Hidden OS（`uchi soto explained`系）＝**勝てるレーン・本丸のひとつ**
@@ -75,12 +75,12 @@ related:
 
 **(c) 低接触＝TSHの看板概念の検証（`places to eat where you don't have to talk`）** ★重要
 - SERP＝byFood・InsideJapan・GaijinPot・TikTok・個人ブログ（Ting and Things 2016）。
-- **観測＝既存の"無会話"コンテンツは事実上すべて一蘭（Ichiran）の紹介記事に収束している**。チェーン・シチュエーション横断で「接触量」を尺度化した記事は見当たらない。
-- → **TSHの差別化概念「接触量で格付け」は実測でも空いている**。Ch.1/Ch.2の中核角度として採用を継続してよい。
+- **観測＝既存の"無会話"コンテンツは事実上すべて一蘭（Ichiran）の紹介記事に収束している**。チェーン・シチュエーション横断で「どれだけ話さずに済むか」を尺度化した記事は見当たらない。
+- → **TSHの差別化角度「どれだけ話さずに済むかで格付け」は実測でも空いている**。Ch.1/Ch.2の中核角度として採用を継続してよい。
 
 **(d) チェーンのティアリスト**
 - SERP＝alojapan・**nippon.com（在日外国人アンケートでサイゼリヤが1位）**・YOLO JAPAN・MATCHA・kanko-map＋**個人ブログの実物「Japan Fast Food Tier List」（kuokoaday.com・2025-09更新）**。
-- **⚠️注意＝ティアリスト形式の競合は既に存在する**（記事#18は"形式"では差別化にならない）。ただし既存は「美味しい/安い」の評価軸。**「接触量＝どれだけ喋らずに済むか」で並べたティアリストは不在**＝軸を変えれば成立。
+- **⚠️注意＝ティアリスト形式の競合は既に存在する**（記事#18は"形式"では差別化にならない）。ただし既存は「美味しい/安い」の評価軸。**「どれだけ喋らずに済むか」で並べたティアリストは不在**＝軸を変えれば成立。
 - 使える一次データ＝nippon.com調査（在日外国人の人気1位サイゼリヤ、2位すき家）＝**読者の実際の行動と、TSHの推薦の答え合わせに使える**。
 
 ### ⑥ Ch.3 Rules（`onsen tattoo` / `garbage` / `chopstick` / `train`）＝**縮小（深追いしない）**
@@ -169,10 +169,10 @@ related:
 ### Ch.1 / Ch.2（低接触）
 | KW/クエリ | 実査 | メモ |
 |---|---|---|
-| places to eat in japan where you don't have to talk to anyone | ★（部分） | 既存は**一蘭一択に収束**。横断的な"接触量"の格付けは不在 |
+| places to eat in japan where you don't have to talk to anyone | ★（部分） | 既存は**一蘭一択に収束**。横断的な「どれだけ話さずに済むか」の格付けは不在 |
 | what happens when you sit down at an izakaya (otoshi) | ○ | 既存はフレーズ集のみ＝**時系列の台本**が空き |
 | where can i eat alone in japan without feeling weird | ○ | 既存は「大丈夫だよ」型のみ＝**浮く店/浮かない店の線引き**が空き |
-| japanese chain restaurants ranked by how little you have to speak | ★（軸） | ティアリスト形式は既存だが**接触量の軸は不在** |
+| japanese chain restaurants ranked by how little you have to speak | ★（軸） | ティアリスト形式は既存だが**「どれだけ話さずに済むか」の軸は不在** |
 
 ### Ch.3 / Strolls
 | KW/クエリ | 実査 | メモ |
@@ -193,12 +193,12 @@ related:
 ### B. 角度を変える（廃止はしないが書き方を確定させる）
 | # | 変更 |
 |---|---|
-| #2 Day Oneの店 | 「接触量で格付け」を**記事の背骨に**する（既存競合と唯一違う軸。実査で不在を確認） |
+| #2 Day Oneの店 | 「**どれだけ日本語を話さずに済むか**」を記事の背骨にする（既存競合と唯一違う軸。実査で不在を確認） |
 | #4 Before You Land | **eSIM比較にしない**。「30分セットアップの実体験」＋アフィは記事内導線のみ（§2④） |
 | #5 券売機 | 単独how-toでは弱い。**#2に統合するか、"券売機のある店リスト＋現地写真"に寄せる**（純how-to回避） |
 | #16 居酒屋 | フレーズ集ではなく**入店〜会計の時系列台本**（お通し問題を正面から扱う） |
 | #17 一人飯 | 「大丈夫だよ」ではなく**浮く店/浮かない店の線引き** |
-| #18 チェーンのティアリスト | **接触量の軸で並べる**。nippon.com調査（在住外国人1位サイゼリヤ・2位すき家）と自分の推薦を突き合わせる構成 |
+| #18 チェーンのティアリスト | **「どれだけ話さずに済むか」で並べる**。nippon.com調査（在住外国人1位サイゼリヤ・2位すき家）と自分の推薦を突き合わせる構成 |
 
 ### C. 削る／後回し（Ch.3の縮小）
 | # | 提案 |
@@ -213,7 +213,7 @@ related:
 |---|---|---|
 | **N1** | What "Teach Me English" Actually Means (From the Japanese Guy Who Says It) | §5★＝SERPに答えが存在しない／186件で実証済みの需要 |
 | **N2** | "Muzukashii" and 9 Other Ways Japanese People Say No | §5◇＝断片しかなく、表として存在しない |
-| **N3** | The Contact-Level Guide to Eating in Japan（低接触の総論＝ピラー） | 「接触量」の横断的資料が不在＝TSHの看板概念のピラー記事 |
+| **N3** | How to Eat in Japan Without Speaking Japanese（総論＝ピラー／英題はB5・B6で確定） | 「日本語を話さずに食べる」の横断的資料が不在＝ピラー記事 |
 
 - **差引＝25本 − 2本（#12/#15削除）＋ 3本（N1〜N3）＝ 26本**。本数はほぼ維持しつつ、**AI Overviewsに溶ける記事を、競合の存在しない記事に置き換えた**のが今回の改廃の中身。
 
@@ -275,7 +275,7 @@ Round1では「そのKWで良い記事が存在しない」ことを確認して
 | 実データ（サジェスト候補） | 読み |
 |---|---|
 | **`how to order food in japan without speaking japanese`**（第1候補） | **Ch.1の中核クエリが実在**。「日本語を話さずに注文する」はそのまま検索されている |
-| **`how to live in japan without speaking japanese` / `how to survive in japan without knowing japanese` / `how to visit japan without speaking japanese`** | **N3（接触量ガイド＝低接触のピラー）に検索需要が実在**。Round1では概念の空白しか確認できていなかったが、**ピラーKWとして成立する**＝格上げ |
+| **`how to live in japan without speaking japanese` / `how to survive in japan without knowing japanese` / `how to visit japan without speaking japanese`** | **N3（日本語なしで食べるピラー）に検索需要が実在**。Round1では概念の空白しか確認できていなかったが、**ピラーKWとして成立する**＝格上げ |
 | **`is it rude in japan to ...`**（not finish food／eat while walking／drink while walking／tip／leave food／slurp noodles／burp／**rub chopsticks together**） | **Ch.3の本当のクエリ形は「箸のマナー」ではなく「〜するのは失礼？」という恐怖ベースの疑問文**。※箸は独立記事ではなく**この疑問文の一項目として生き残る**（Round1の#12削除判断を微修正） |
 | **`what to say when entering a japanese restaurant` ほか同義10件** | 同じ意図の言い換えが候補を埋め尽くす＝**需要密度が高い**。要件定義FR-2（ローマ字＋日本語＋英訳の台本）が**そのまま答えになるKW群** |
 | **`why do japanese people always say hai` / `what does it mean when japanese people say hai` / `what do japanese say instead of no` / `is it rude to say no in japan`** | **N2（"No"の言い方）の需要が実在**＝Round1の推測が実データで裏づけ |
@@ -304,7 +304,7 @@ Round1では「そのKWで良い記事が存在しない」ことを確認して
 | 記事 | 狙うクエリ形 |
 |---|---|
 | #2 Day Oneの店 | how to order food in japan without speaking japanese |
-| **N3 接触量ガイド（ピラー）** | how to live / survive / visit japan without speaking japanese |
+| **N3 日本語なしで食べる（ピラー）** | how to live / survive / visit japan without speaking japanese |
 | #16 居酒屋 | what to say when entering a japanese restaurant（＋退店時） |
 | #17 一人飯 | eating alone in japan／is eating alone normal in japan |
 | #3 コンビニ | japan convenience store what to buy |
@@ -327,7 +327,7 @@ Round1で未実行だった「会話型AIクエリを並行で拾う」への回
 
 外部調査で確認した引用されやすい形（⚠️**出典はSEO事業者のブログ＝マーケ目的の記事のため、数値は割り引いて読むこと**）：
 - **H2を実際の疑問文にし、直後の第1段落で直接答える**（answer-shaped page）。
-- **独自データの表を持つページは引用率が高い**とされる（4.1倍という主張あり・要割引）。→ **TSHの「接触量ティアリスト」はまさに独自データ表**＝設計と一致。
+- **独自データの表を持つページは引用率が高い**とされる（4.1倍という主張あり・要割引）。→ **TSHの「どれだけ話さずに済むか」のティアリストはまさに独自データ表**＝設計と一致。
 - リスト形式がAI Overviewsで最も引用されやすい形式とされる。
 - **自社サイトより第三者（媒体・レビュー・フォーラム）経由の言及の方が引用に効く**（6.5倍という主張あり・要割引）。→ **Reddit運用はトラフィック施策であると同時にAI引用の施策**。
 - 更新月の明示と定期的な実質更新（→要件定義NFRの`dateModified`可視化と一致）。
@@ -339,7 +339,7 @@ Round1で未実行だった「会話型AIクエリを並行で拾う」への回
 Round1の§6を、Round2の結果で以下のとおり修正する（**M2擦り合わせでは本節を見る**）。
 
 1. **N1・#11は「削除」ではなく「B分類（コミュニティ記事）」へ**。書く価値はある（Redditで実証済み・AI引用素材）が、**SEOの本数に数えない**。
-2. **N3（接触量ガイド）を最重要ピラーに格上げ**。`how to live in japan without speaking japanese` という実在ピラーKWを持つため、**サイトの看板記事＝#1ハブに次ぐ位置**に置く。
+2. **N3（日本語なしで食べる）を最重要ピラーに格上げ**。`how to live in japan without speaking japanese` という実在ピラーKWを持つため、**サイトの看板記事＝#1ハブに次ぐ位置**に置く。
 3. **#12（箸）の完全削除を撤回 → N4「Is It Rude to…?」に吸収**。`is it rude in japan to rub chopsticks together` 等、実在するのは疑問文の形。**#15（電車）も同様にN4へ吸収**（Forbes等と正面から戦わず、疑問文集の一項目にする）。
 4. **#23 First Week in Japan はタイトルのKWを変更**（`japan first week` は旅行時期クエリに占有されている）。
 5. **#7（うちそと）はKWを「いつ下の名前で呼んでいいか」側に寄せる**（抽象語でなく読者の実務的判断）。

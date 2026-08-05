@@ -52,7 +52,7 @@ Home
 | # | 章 | タイトル（仮） | 対象 | 収益 |
 |---|---|---|---|---|
 | 1★ | ハブ | The Japan Walkthrough — A Local Househusband's Guide to Actually Surviving Japan | 全 | — |
-| 2★ | Ch.1 | Restaurants You Can Use on Day One in Japan (No Japanese Needed) — 松屋/すき家/マック/日高屋等、券売機・タッチパネル・接触量で格付け | C/J | eSIM・アフィ内部導線 |
+| 2★ | Ch.1 | Restaurants You Can Use on Day One in Japan (No Japanese Needed) — 松屋/すき家/マック/日高屋等、券売機・タッチパネルで注文が完結するかで格付け | C/J | eSIM・アフィ内部導線 |
 | 3 | Ch.1 | The Konbini Walkthrough: Everything You Can Do at a Japanese Convenience Store | C/J | — |
 | 4 | Ch.0 | Before You Land: eSIM, IC Cards, and Cash — The 30-Minute Setup | C | **eSIM/交通アフィ** |
 | 5 | Ch.2 | How to Use a Ticket Machine Restaurant (Step-by-Step, with Photos) | C/J | — |
@@ -99,6 +99,6 @@ Home
 |---|---|---|
 | [GaijinPot](https://gaijinpot.com) | 求人・住居・生活DBの最大手 | DB型。一人称の攻略本ではない |
 | [Tofugu](https://www.tofugu.com) | 日本語学習・深掘り記事 | 外国人視点。語学が主戦場 |
-| [japan-guide.com](https://www.japan-guide.com) | 観光網羅・1996年から | 百科事典型。台本・接触量の視点なし |
+| [japan-guide.com](https://www.japan-guide.com) | 観光網羅・1996年から | 百科事典型。台本の視点なし |
 | [Tokyo Cheapo](https://tokyocheapo.com) | 節約×東京 | 節約軸。文化のOS解説なし |
 | 本サイト | **日本人主夫本人の一人称×攻略本UX×低接触の台本** | 「なぜそうなのか（OS）」と「どう動くか（台本）」を同一人物が書く |
