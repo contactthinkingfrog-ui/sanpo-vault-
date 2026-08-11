@@ -2185,3 +2185,48 @@ IRORI D1 `reports`（id 40）／本ログ
 
 ### 次アクション
 **B4「看板になる概念」。** 第一候補＝**why／なぜ**。
+
+---
+
+## 2026-08-11（18）B4着手＝「なぜ」を実査で検定（本人の決定待ち）（Opus）
+
+### やったこと＝実査で選択肢を潰すところまで。設計と推奨はしていない
+★**B3の失敗（競合データから3案を作って全部却下・半日を捨てた）を繰り返さないため、順序を「実査 → 本人に訊く」に固定した。** 成果物＝`00_設定/B4_看板になる概念_2026-08.md`
+
+### 実査A｜「なぜ」の需要は全テーマに実在するか（autocomplete `hl=en&gl=us`・2026-08-11）
+★**B3で「なぜは全テーマに掛かる」は推論だった。今回そこに実測が付いた。**
+- **制度**＝`why does japan have no trash cans` ／ `why does japan have women only trains` ／ `why does japan have tax free shopping`
+- **人**＝`why do japanese people wear masks` ／ `not wear sunglasses` ／ `bow` ／ `say moshi moshi` ／ `why do japanese train drivers point`
+- **食**＝`why do japanese restaurants give wet towels` ／ `close so early` ／ `have half curtains` ／ `say irasshaimase` ／ ★`turn away foreigners`
+- **決済**＝`why is japan still cash based` ／ `still a cash society` ／ `why does japan still use cash`
+- **音楽**＝`why is city pop so good` ／ `popular` ／ `called city pop` ／ `why is japanese music so different`
+- **街**＝`why is japan so clean` ／ `so safe` ／ `why are japanese streets so narrow`
+
+⚠️**散歩だけ例外**＝`why do japanese walk` の候補10件中6件が**「Japanese walking」＝海外のフィットネストレンド**（`why does japanese walking work` 等）。本物は `walk on the left / with small steps / with hands behind back / a lot` の4件。**散歩を「なぜ」で束ねると需要の大半が別物に吸われる。**
+
+### ★★実査Aで出た本当の難所＝「なぜ」は理解側に100%乗り、収益側に乗らない
+**見つかった「なぜ」クエリは1件残らず「説明してほしい」の形。** 金が出る帯は `how to pay in japan as a foreigner` / `japan cash or card 2026` / `can foreigners get a credit card in japan`＝**how・canの形で、whyの形ではない。**
+追加確認＝**`why cant foreigners` の候補にJapanが1件も出ない**（全部タイ・中国・インド・フィリピン）。
+→ **§4-7（勝てる場所と稼ぐ場所はズレている）が看板のレベルで再現しただけ＝新しい欠陥ではない。** ⚠️**ただしB4では無視できない**＝看板を「なぜ」1本にすると、**本人が自分で挙げた記事の実例（キャッシュレスで払える店の一覧・使い方・買えるもの）と、収益を担う記事が、両方とも看板の外に出る。**
+
+### ★★実査B｜語ではなく「立ち位置」で当てたら占有が1件出た
+- 語としては空き＝`"why Japan is like this"` の完全一致にブランドは無い（単発記事のみ）。⚠️**弱い証拠のまま**（B3 §6-4と同じ型）。
+- **Unseen Japan のタグラインは不変**（2026-08-11再取得）＝*"The Japan you don't learn about in anime"*。
+- ★**That Japanese Man Yuta**（YouTube・登録者100万人規模）＝**日本生まれ日本育ち・両親とも日本人・英語で日本を説明。狙いは「"例外的な"話を強調する従来メディアに対して even-keel（偏らない）な日本像を見せる」＝本人決定「誇張しない／右にも左にも寄らない」とほぼ同じ言葉。**
+  - ⚠️**二次情報**＝[Japan Times 2016](https://www.japantimes.co.jp/life/2016/06/03/digital/japanese-man-yuta-uses-youtube-show-us-japan-really-thinks/)＋[LaGuardia 日本研究プログラム 2021](https://chrysanthemum.commons.gc.cuny.edu/2021/03/popular-japanese-youtuber-that-japanese-man-yuta/)の2独立ソース一致。**一次確認（YouTube About直接取得）は2回失敗＝掟5に従い撤退。100万人は未検証。**
+  - ★**なぜ重いか＝B3のF3確認3回（07-31/08-04/08-05）はすべてWebサイトだけを見ていた。プラットフォームを外して当てたら出た。**
+  - **方法の差は事実で言える**＝**Yuta＝他の日本人に街頭で訊いて総意を見せる／TSH＝ひとりが自分の詰まった場面を書く。** 前者は§4-20で飽和判定した第三者解説と同じ側。
+- （参考）NHK World『Japanology Plus』のホスト＝**Peter Barakan（英国人）**。放送の説明枠は「外から来て長くいる人」形式。
+
+### ⚠️見直し＋所感（掟8）
+1. ★**今回いちばん効いたのは「検査の軸をWebサイトから外したこと」。** 同じF3検査を3回やって3回とも空白と出ていたが、**プラットフォームを問わずに当てた初回で占有が出た。** ⚠️**「3回確認した」は強度の証明になっていなかった＝同じ穴を3回覗いていた。**
+2. ⚠️**Yutaの件は一次確認ができていない。** 数値は使わず、位置づけの議論にだけ使うこと。
+3. ⚠️**§1-2は新発見ではない**（§4-7の再現）。**ただしB3の段階で気づけたはず**＝約束が「なぜ」に着地した時点で、収益の帯がwhyの形でないことは検査できた。**一段遅れた。**
+4. **「散歩がフィットネストレンドに吸われる」は今回の副産物だがB7に効く。** 屋号（The Strolling Husband）とも絡むのでB5に申し送った。
+5. **本人への3問には推奨を付けていない**（B3で2回外したため）。⚠️ただしQ1の選択肢a/b/cはClaudeが作った枠＝**本人が「どれでもない」と言える形で出すこと。**
+
+### 更新したファイル
+`00_設定/B4_看板になる概念_2026-08.md`（新規）／`00_設定/引き継ぎ_Opus_2026-08.md`（§2・§9）／`00_設定/ロードマップ_完成までの行程.md`（B4）／本ログ
+
+### 次アクション
+**本人がB4の3問に答える**（①「なぜ」の外に出る実用記事の扱い ②同じ旗が既に立っている件 ③「なぜ」で章名が付くか）。→ 答えが出たら看板を確定し、B5（名前・タグライン）へ。
